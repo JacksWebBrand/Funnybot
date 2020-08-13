@@ -9,7 +9,7 @@ function toggleButton() {
 // Passing the joke text to the voiceRSS api
 function tellMe(joke) {
     VoiceRSS.speech({
-        key: '187c37c75f084ec083f68bbf022bd03a',
+        key: '187c37c75f084ec083f68bbf022bd03a', // you should always store api keys on the back end where it matters!
         src: joke,
         hl: 'en-us',
         v: 'Linda',
